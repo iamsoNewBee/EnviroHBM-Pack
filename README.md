@@ -1,4 +1,4 @@
 # EnviroHBM-Pack
-A mod pack.
+A mod pack mainly about Enviromine and MTN! Learn more form the wiki!
 
-I still dont know how to upload the huge file...
+
