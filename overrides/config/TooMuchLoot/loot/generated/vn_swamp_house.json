@@ -1,0 +1,77 @@
+{
+  "category": "vn_swamp_house",
+  "count_min": 3,
+  "count_max": 9,
+  "loot": [
+    {
+      "item": "minecraft:bread",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:emerald",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:book",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:vine",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:coal",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:fish",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "minecraft:fence",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:boat",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "VillageNames:prismarine_shard",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}

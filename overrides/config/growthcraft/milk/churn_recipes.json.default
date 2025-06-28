@@ -1,0 +1,27 @@
+{
+  "comment": "",
+  "data": [
+    {
+      "comment": "",
+      "input_fluid": {
+        "comment": "ƒÃ”Õ",
+        "name": "grcmilk.cream",
+        "amount": 1000
+      },
+      "output_fluid": {
+        "comment": "¿“»È",
+        "name": "grcmilk.buttermilk",
+        "amount": 500
+      },
+      "output_item": {
+        "ore": null,
+        "comment": "ª∆”Õ(Œ¥º”—Œ)",
+        "mod_id": "Growthcraft|Milk",
+        "name": "grcmilk.Butter",
+        "amount": 2,
+        "meta": 0
+      },
+      "churns": 16
+    }
+  ]
+}

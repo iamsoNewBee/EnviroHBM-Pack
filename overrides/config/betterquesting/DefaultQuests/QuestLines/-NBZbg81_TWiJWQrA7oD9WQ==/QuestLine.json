@@ -1,0 +1,19 @@
+{
+  "questLineIDHigh:4": 3753287961106402664,
+  "questLineIDLow:4": -8549790593834746535,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:cobblestone",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "bg_size:3": 256,
+      "bg_image:8": "",
+      "name:8": "前工业时代",
+      "desc:8": "在这一段时间内，你的大部分时间将用于采集生存资料。你只有最基础的生产工具，满足最基本的温饱就可以让你心满意足……"
+    }
+  }
+}

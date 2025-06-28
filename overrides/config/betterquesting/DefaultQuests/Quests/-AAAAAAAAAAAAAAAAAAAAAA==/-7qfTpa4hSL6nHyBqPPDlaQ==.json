@@ -1,0 +1,72 @@
+{
+  "questIDLow:4": -6404364504436513431,
+  "questIDHigh:4": -1249797663027541826,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 1,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:tile.pump_steam",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 0,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -6558430443540575041,
+      "questIDHigh:4": -6134693081679968419
+    },
+    "1:10": {
+      "questIDLow:4": -5035449174412760549,
+      "questIDHigh:4": 5026926187781832827
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.motor",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "hbm:tile.pump_steam",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "汩汩清泉",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "你没必要造无数组输液管，好把基地和海边的水泵连接起来。不过，你为什么要把家建在离水源几百区块的地方？幸好我们还可以考虑[url]地下水[/url]！它们取之不竭，又极其[url]纯净[/url]！"
+    }
+  }
+}

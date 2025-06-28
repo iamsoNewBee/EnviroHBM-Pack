@@ -1,0 +1,113 @@
+{
+  "questIDLow:4": -5949717768255533818,
+  "questIDHigh:4": 70908657636691456,
+  "tasks:9": {
+    "0:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 1,
+          "id:8": "ImmersiveEngineering:woodenDecoration",
+          "OreDict:8": "",
+          "Count:3": 4
+        },
+        "1:10": {
+          "Damage:2": 10,
+          "id:8": "ImmersiveEngineering:metalDecoration",
+          "OreDict:8": "",
+          "Count:3": 34
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    },
+    "1:10": {
+      "requiredUses:3": 1,
+      "ignoreNbt:1": 1,
+      "block:10": {
+        "amount:3": 1,
+        "meta:3": 10,
+        "oreDict:8": "",
+        "nbt:10": {},
+        "blockID:8": "ImmersiveEngineering:metalDecoration"
+      },
+      "item:10": {
+        "Damage:2": 0,
+        "id:8": "ImmersiveEngineering:tool",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "taskID:8": "bq_standard:interact_item",
+      "onInteract:1": 1,
+      "onHit:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -4821393616292138680,
+      "questIDHigh:4": -1353750845678465273
+    },
+    "1:10": {
+      "questIDLow:4": -6437840985512346979,
+      "questIDHigh:4": 4579916433603184224
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 5,
+          "id:8": "ImmersiveEngineering:metalDevice2",
+          "OreDict:8": "",
+          "Count:3": 16
+        },
+        "1:10": {
+          "Damage:2": 10,
+          "id:8": "ImmersiveEngineering:metalDecoration",
+          "OreDict:8": "",
+          "Count:3": 32
+        },
+        "2:10": {
+          "Damage:2": 12,
+          "id:8": "ImmersiveEngineering:material",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 10,
+        "id:8": "ImmersiveEngineering:metalDecoration",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "工业储罐",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "海纳百川，有容乃大。[url]工业储罐[/url]可以帮你在前期储存更多水！\n[img height\u003d100]knowyourselves:1/ietank.png[/img]"
+    }
+  }
+}

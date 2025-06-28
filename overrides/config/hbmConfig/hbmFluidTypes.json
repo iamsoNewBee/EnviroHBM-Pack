@@ -1,0 +1,14 @@
+{
+  "CUSTOM_DEMO": {
+    "name": "liquid_concrete",
+    "id": 1000,
+    "color": 5526612,
+    "tint": 5526612,
+    "p": 1,
+    "f": 2,
+    "r": 0,
+    "symbol": "OXIDIZER",
+    "texture": "custom_water",
+    "temperature": 20
+  }
+}

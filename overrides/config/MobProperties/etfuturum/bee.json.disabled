@@ -1,0 +1,9 @@
+{
+  "_name": "etfuturum.bee",
+ "drops": [{
+    "function" : "add",
+    "id" : "Growthcraft|Bees:grc.bee"
+  }],
+  "pre_stats": [],
+  "stats": []
+}

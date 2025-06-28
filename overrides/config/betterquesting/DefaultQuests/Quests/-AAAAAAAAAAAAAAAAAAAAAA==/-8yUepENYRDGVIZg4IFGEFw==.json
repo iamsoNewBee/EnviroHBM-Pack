@@ -1,0 +1,81 @@
+{
+  "questIDLow:4": -7700706520999033833,
+  "questIDHigh:4": -926300457501440975,
+  "tasks:9": {
+    "0:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "cfm:ItemFridge",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "cfm:ItemCoolPack",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -6037974599767236133,
+      "questIDHigh:4": 5802810054250810595
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:water_bucket",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:slime_ball",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "cfm:ItemFridge",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "绝命“冰”师",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "多年以后，当沃尔特面对行刑官时，他还是不由想起来父亲见识冰块的那个下午——他恨不得把自己塞到[url]冰箱[/url]里！"
+    }
+  }
+}

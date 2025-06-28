@@ -1,0 +1,14 @@
+{
+  "category": "composting",
+  "count_min": 1,
+  "count_max": 1,
+  "loot": [
+    {
+      "item": "minecraft:dye",
+      "damage": 15,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}

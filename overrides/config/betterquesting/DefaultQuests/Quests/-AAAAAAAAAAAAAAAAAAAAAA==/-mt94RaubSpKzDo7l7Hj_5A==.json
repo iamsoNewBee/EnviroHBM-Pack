@@ -1,0 +1,81 @@
+{
+  "questIDLow:4": -5544336973080494108,
+  "questIDHigh:4": -7286973431435015534,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.powder_coal",
+          "OreDict:8": "",
+          "Count:3": 32
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.powder_lignite",
+          "OreDict:8": "",
+          "Count:3": 32
+        },
+        "2:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.powder_asbestos",
+          "OreDict:8": "",
+          "Count:3": 32
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 0,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -8932525697135773637,
+      "questIDHigh:4": -6494342330508361459
+    },
+    "1:10": {
+      "questIDLow:4": -8988800940189068795,
+      "questIDHigh:4": 2076624490295279640
+    },
+    "2:10": {
+      "questIDLow:4": -8594463578657169930,
+      "questIDHigh:4": -3321736349375247604
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {},
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "hbm:item.powder_coal",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "粉尘污染",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "受够了这些让你咳嗽不止的矿物了吗？不如把它们打成[url]粉[/url]。【咳嗽得更厉害了！】"
+    }
+  }
+}

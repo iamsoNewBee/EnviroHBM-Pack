@@ -1,0 +1,45 @@
+{
+  "questIDLow:4": -7675320272204380991,
+  "questIDHigh:4": 8152962550420750928,
+  "tasks:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": 3,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "command:8": "/time set 12000",
+      "viaPlayer:1": 0,
+      "hideCommand:1": 1,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "tempitems:sleepIcon",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "深夜emo",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "[url]夜幕降临[/url]，万籁俱寂，你躺在床上开始胡思乱想。过去的记忆如潮水般涌来，但你并未感到宽慰。你又想起那个没有挖到的钻石了。你忽然发现自己变得[url]多愁善感[/url]，白天付之一笑的琐事反复萦绕在心头……"
+    }
+  }
+}

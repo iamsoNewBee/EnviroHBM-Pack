@@ -1,0 +1,67 @@
+{
+  "questIDLow:4": -5434620339433944074,
+  "questIDHigh:4": -4440193933846755805,
+  "tasks:9": {
+    "0:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "adventurebackpack:blockBackpack",
+          "OreDict:8": "",
+          "tag:10": {
+            "wearableData:10": {}
+          },
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "type:1": 1,
+      "questIDLow:4": -5980216662929068588,
+      "questIDHigh:4": -6025644305260722128
+    },
+    "1:10": {
+      "questIDLow:4": -5011036810844679717,
+      "questIDHigh:4": -5534952802116219168
+    }
+  },
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "adventurebackpack:blockBackpack",
+        "OreDict:8": "",
+        "Count:3": 1,
+        "tag:10": {
+          "wearableData:10": {}
+        }
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "真正的背包",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "那么多背包，却没有一个能真正“背”上的“背”包？当然有！而且它不仅是背包，还是一个集睡袋，工作台，工具带，储水箱一体的多功能高“科技”【魔法】背包……"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "questIDLow:4": -8215453619682937809,
+  "questIDHigh:4": 5009288151140748390,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "betterquesting:placeholder",
+          "OreDict:8": "",
+          "tag:10": {
+            "orig_id:8": "enviromine:badWaterBottle",
+            "orig_meta:3": 0
+          },
+          "Count:3": 6
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -6302903468332434234,
+      "questIDHigh:4": -6751270137991575867
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:potion",
+          "OreDict:8": "",
+          "Count:3": 6
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:potion",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "瓶子，水的容器",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "你口渴难耐地跑到水池旁，狼狈地扔掉手里的东西。你大口右键地上的水，水却不断从你手指之间流出。饥饿，中毒等debuff依次出现在右上角。你高声疾呼，质问这样的日子什么时候才能结束。好吧，或许简单的几个[url]玻璃瓶[/url]就能解决你的问题。它们看起来如此简单朴素，背地里却是一个智能的[url]水质分析[/url]仪【我编不下去了】……不信的话，去接一瓶水，你就会发现每一瓶看似简单的水，实则暗藏玄机。"
+    }
+  }
+}

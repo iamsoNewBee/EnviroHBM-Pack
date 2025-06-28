@@ -1,0 +1,294 @@
+{
+  "category": "netherFortress",
+  "count_min": 2,
+  "count_max": 5,
+  "loot": [
+    {
+      "item": "minecraft:diamond",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 5
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "damage": 0,
+      "weight": 15,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:golden_sword",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_chestplate",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 3,
+      "count_max": 7
+    },
+    {
+      "item": "minecraft:saddle",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_horse_armor",
+      "damage": 0,
+      "weight": 8,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:diamond_horse_armor",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "etfuturum:pigstep_record",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 2,
+      "count_max": 4
+    },
+    {
+      "item": "netherlicious:CryingObsidian",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 2,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:golden_shovel",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_pickaxe",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_axe",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_hoe",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_helmet",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_leggings",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_boots",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "damage": 0,
+      "weight": 7,
+      "count_min": 4,
+      "count_max": 24
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "damage": 0,
+      "weight": 8,
+      "count_min": 4,
+      "count_max": 24
+    },
+    {
+      "item": "netherlicious:FlintAndSteelSoul",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "netherlicious:FlintAndSteelFoxfire",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "netherlicious:FlintAndSteelShadow",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "netherlicious:Pigstep",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "netherlicious:Rubedo",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "netherlicious:SoBelow",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "netherlicious:Chrisopoeia",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "netherlicious:WartItem",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 3,
+      "count_max": 7
+    },
+    {
+      "item": "netherlicious:WartItem",
+      "damage": 1,
+      "weight": 3,
+      "count_min": 3,
+      "count_max": 7
+    },
+    {
+      "item": "netherlicious:WartItem",
+      "damage": 2,
+      "weight": 3,
+      "count_min": 3,
+      "count_max": 7
+    },
+    {
+      "item": "minecraft:quartz",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 4,
+      "count_max": 12
+    },
+    {
+      "item": "netherlicious:VoidQuartzItem",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 4,
+      "count_max": 12
+    },
+    {
+      "item": "netherlicious:CrystalShard",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 4,
+      "count_max": 12
+    },
+    {
+      "item": "netherlicious:CrystalShard",
+      "damage": 1,
+      "weight": 3,
+      "count_min": 4,
+      "count_max": 12
+    },
+    {
+      "item": "netherlicious:CrystalShard",
+      "damage": 2,
+      "weight": 3,
+      "count_min": 4,
+      "count_max": 12
+    },
+    {
+      "item": "netherlicious:CrystalShard",
+      "damage": 3,
+      "weight": 3,
+      "count_min": 4,
+      "count_max": 12
+    },
+    {
+      "item": "netherlicious:CrystalShard",
+      "damage": 4,
+      "weight": 3,
+      "count_min": 4,
+      "count_max": 12
+    }
+  ]
+}

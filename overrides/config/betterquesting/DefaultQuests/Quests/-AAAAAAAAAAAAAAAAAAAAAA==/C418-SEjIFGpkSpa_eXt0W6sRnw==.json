@@ -1,0 +1,75 @@
+{
+  "questIDLow:4": -4649549400598965857,
+  "questIDHigh:4": 5208632959063837334,
+  "tasks:9": {
+    "0:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:jukebox",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "1:10": {
+          "Damage:2": 3,
+          "id:8": "BiblioCraft:BiblioStuffs",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -4910853114571478248,
+      "questIDHigh:4": -8650696409222592695
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:record_chirp",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:noteblock",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "C418",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "音乐表达的是无法用语言描述，却又不可能对其保持沉默的东西。或许这个整合包已经让你痛不欲生了。与其丢人地把难度调成和平，不如听会[url]音乐[/url]壮壮士气！在此我推荐chirp。每个人都应该听听这首歌！"
+    }
+  }
+}

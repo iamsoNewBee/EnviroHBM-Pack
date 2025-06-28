@@ -1,0 +1,19 @@
+{
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 0,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 120,
+        "id:8": "minecraft:spawn_egg",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "bg_size:3": 256,
+      "bg_image:8": "",
+      "name:8": "了解自身",
+      "desc:8": "倏地一下，你出生了。面对这熟悉而陌生的世界，你不禁发问……“给我干哪儿来了？这还是1.7.10吗？”"
+    }
+  }
+}

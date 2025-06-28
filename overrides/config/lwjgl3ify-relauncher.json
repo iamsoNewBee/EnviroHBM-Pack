@@ -1,0 +1,22 @@
+{
+  "javaInstallationsCache": [
+    "C:\\Program Files\\Java\\jdk-17\\bin\\javaw.exe",
+    "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+    "C:\\Program Files\\Java\\jdk-21\\bin\\javaw.exe"
+  ],
+  "javaInstallation": 0,
+  "minMemoryMB": 512,
+  "maxMemoryMB": 10752,
+  "garbageCollector": "G1GC",
+  "customOptions": [],
+  "hideSettingsOnLaunch": false,
+  "forwardLogs": false,
+  "allowDebugger": false,
+  "waitForDebugger": false,
+  "mixinDebug": false,
+  "mixinDebugExport": false,
+  "mixinDebugCount": false,
+  "fmlDebugAts": false,
+  "rfbDumpClasses": false,
+  "rfbDumpPerTransformer": false
+}

@@ -1,0 +1,69 @@
+{
+  "questIDLow:4": -5555205182005047983,
+  "questIDHigh:4": -5988206247802875915,
+  "tasks:9": {
+    "0:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "SpiceOfLife:lunchbag",
+          "OreDict:8": "",
+          "Count:3": 2
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -7585125626450049107,
+      "questIDHigh:4": -8761838699904610422
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "SpiceOfLife:lunchbox",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "enviromine:rottenFood",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "难以下咽！",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "曾经你无忧无虑地漫游在mc的大地上，每天以烤马铃薯为食，不清楚mc那一堆食物有什么意义。现在，你知道了……"
+    }
+  }
+}

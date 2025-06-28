@@ -1,0 +1,119 @@
+{
+  "category": "strongholdLibrary",
+  "count_min": 1,
+  "count_max": 5,
+  "loot": [
+    {
+      "item": "minecraft:book",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:paper",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 2,
+      "count_max": 7
+    },
+    {
+      "item": "minecraft:map",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:compass",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 5
+    },
+    {
+      "item": "VillageNames:codex",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "ImmersiveEngineering:blueprint",
+      "damage": 2,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "FoodCraft:ItemDouban",
+      "damage": 0,
+      "weight": 16,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "FoodCraft:ItemZongye",
+      "damage": 0,
+      "weight": 16,
+      "count_min": 1,
+      "count_max": 10
+    },
+    {
+      "item": "FoodCraft:ItemKafei",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "FoodCraft:ItemGalikuai",
+      "damage": 0,
+      "weight": 16,
+      "count_min": 1,
+      "count_max": 10
+    },
+    {
+      "item": "FoodCraft:ItemHetaosu",
+      "damage": 0,
+      "weight": 16,
+      "count_min": 1,
+      "count_max": 10
+    },
+    {
+      "item": "FoodCraft:ItemXiangchang",
+      "damage": 0,
+      "weight": 16,
+      "count_min": 1,
+      "count_max": 10
+    },
+    {
+      "item": "FoodCraft:ItemLaweixunliao",
+      "damage": 0,
+      "weight": 32,
+      "count_min": 1,
+      "count_max": 10
+    },
+    {
+      "item": "OpenComputers:item",
+      "damage": 4,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "etfuturum:beetroot_seeds",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 2
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "questIDLow:4": 4,
+  "questIDHigh:4": 0,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {},
+      "partialMatch:1": 1,
+      "consume:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": 7,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.cigarette",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "UNLOCKED",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "tempitems:handIcon",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "name:8": "空气",
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "显然在水下待得过久并不是一个好主意。为什么？你无法呼吸！然而即使在地面也有缺乏氧气的地方，比如[url]高原[/url]或是[url]矿洞[/url]。与溺水不同，如果你空气值过低，你不会立即死掉！你可能会感到胸闷，虚弱，有些情况下，你还会[url]咳嗽[/url]不止，甚至咳血！然后……你就会死掉！"
+    }
+  }
+}

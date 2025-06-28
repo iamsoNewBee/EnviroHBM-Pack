@@ -1,0 +1,61 @@
+{
+  "questIDLow:4": -6453409288256540572,
+  "questIDHigh:4": 3917679100014379691,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "ganyssurface:blockOfPoop",
+          "OreDict:8": "",
+          "Count:3": 114
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "400:32",
+          "OreDict:8": "",
+          "Count:3": 514
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -8594246233072139038,
+      "questIDHigh:4": -3149065801366878121
+    }
+  },
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "tempitems:night",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "彻底疯狂！",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "经过无数次死亡后，你对死亡无感了。你失去了对死亡的恐惧！于是你彻底疯狂！你搭了一个[url]暗无天日[/url]的屋子，里面涂满[url]粪便[/url]与[url]腐肉[/url]。你强制把你的朋友和你关在里面，从此过上了没羞没臊的[url]幸福[/url]生活。"
+    }
+  }
+}

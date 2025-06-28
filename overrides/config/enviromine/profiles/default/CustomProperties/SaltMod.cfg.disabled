@@ -1,0 +1,3119 @@
+# Configuration file
+
+armor {
+
+    "item_mudHelmet_[Ljava_lang_String;@6e589587" {
+        S:01.ID=SaltMod:mudHelmet
+        D:"02.Temp Add - Night"=0.0
+        D:"03.Temp Add - Shade"=0.0
+        D:"04.Temp Add - Sun"=0.0
+        D:"05.Temp Multiplier - Night"=1.0
+        D:"06.Temp Multiplier - Shade"=1.0
+        D:"07.Temp Multiplier - Sun"=1.0
+        D:08.Sanity=0.0
+        D:09.Air=0.0
+        B:"11.Is Temperature Resistance"=false
+        B:"12.Is Temperature Sealed"=false
+    }
+
+    "item_mudChestplate_[Ljava_lang_String;@25351508" {
+        S:01.ID=SaltMod:mudChestplate
+        D:"02.Temp Add - Night"=0.0
+        D:"03.Temp Add - Shade"=0.0
+        D:"04.Temp Add - Sun"=0.0
+        D:"05.Temp Multiplier - Night"=1.0
+        D:"06.Temp Multiplier - Shade"=1.0
+        D:"07.Temp Multiplier - Sun"=1.0
+        D:08.Sanity=0.0
+        D:09.Air=0.0
+        B:"10.Allow Camel Pack"=true
+        B:"11.Is Temperature Resistance"=false
+        B:"12.Is Temperature Sealed"=false
+    }
+
+    "item_mudLeggings_[Ljava_lang_String;@5f5aa98e" {
+        S:01.ID=SaltMod:mudLeggings
+        D:"02.Temp Add - Night"=0.0
+        D:"03.Temp Add - Shade"=0.0
+        D:"04.Temp Add - Sun"=0.0
+        D:"05.Temp Multiplier - Night"=1.0
+        D:"06.Temp Multiplier - Shade"=1.0
+        D:"07.Temp Multiplier - Sun"=1.0
+        D:08.Sanity=0.0
+        D:09.Air=0.0
+        B:"11.Is Temperature Resistance"=false
+        B:"12.Is Temperature Sealed"=false
+    }
+
+    "item_mudBoots_[Ljava_lang_String;@4f87e8f9" {
+        S:01.ID=SaltMod:mudBoots
+        D:"02.Temp Add - Night"=0.0
+        D:"03.Temp Add - Shade"=0.0
+        D:"04.Temp Add - Sun"=0.0
+        D:"05.Temp Multiplier - Night"=1.0
+        D:"06.Temp Multiplier - Shade"=1.0
+        D:"07.Temp Multiplier - Sun"=1.0
+        D:08.Sanity=0.0
+        D:09.Air=0.0
+        B:"11.Is Temperature Resistance"=false
+        B:"12.Is Temperature Sealed"=false
+    }
+
+    "item_mudHelmet_[Ljava_lang_String;@3a8cf94c" {
+        S:01.ID=SaltMod:mudHelmet
+        D:"02.Temp Add - Night"=0.0
+        D:"03.Temp Add - Shade"=0.0
+        D:"04.Temp Add - Sun"=0.0
+        D:"05.Temp Multiplier - Night"=1.0
+        D:"06.Temp Multiplier - Shade"=1.0
+        D:"07.Temp Multiplier - Sun"=1.0
+        D:08.Sanity=0.0
+        D:09.Air=0.0
+        B:"11.Is Temperature Resistance"=false
+        B:"12.Is Temperature Sealed"=false
+    }
+
+    "item_mudChestplate_[Ljava_lang_String;@35df6c1f" {
+        S:01.ID=SaltMod:mudChestplate
+        D:"02.Temp Add - Night"=0.0
+        D:"03.Temp Add - Shade"=0.0
+        D:"04.Temp Add - Sun"=0.0
+        D:"05.Temp Multiplier - Night"=1.0
+        D:"06.Temp Multiplier - Shade"=1.0
+        D:"07.Temp Multiplier - Sun"=1.0
+        D:08.Sanity=0.0
+        D:09.Air=0.0
+        B:"10.Allow Camel Pack"=true
+        B:"11.Is Temperature Resistance"=false
+        B:"12.Is Temperature Sealed"=false
+    }
+
+    "item_mudLeggings_[Ljava_lang_String;@6a12b4fb" {
+        S:01.ID=SaltMod:mudLeggings
+        D:"02.Temp Add - Night"=0.0
+        D:"03.Temp Add - Shade"=0.0
+        D:"04.Temp Add - Sun"=0.0
+        D:"05.Temp Multiplier - Night"=1.0
+        D:"06.Temp Multiplier - Shade"=1.0
+        D:"07.Temp Multiplier - Sun"=1.0
+        D:08.Sanity=0.0
+        D:09.Air=0.0
+        B:"11.Is Temperature Resistance"=false
+        B:"12.Is Temperature Sealed"=false
+    }
+
+    "item_mudBoots_[Ljava_lang_String;@188f9d1c" {
+        S:01.ID=SaltMod:mudBoots
+        D:"02.Temp Add - Night"=0.0
+        D:"03.Temp Add - Shade"=0.0
+        D:"04.Temp Add - Sun"=0.0
+        D:"05.Temp Multiplier - Night"=1.0
+        D:"06.Temp Multiplier - Shade"=1.0
+        D:"07.Temp Multiplier - Sun"=1.0
+        D:08.Sanity=0.0
+        D:09.Air=0.0
+        B:"11.Is Temperature Resistance"=false
+        B:"12.Is Temperature Sealed"=false
+    }
+
+}
+
+
+blocks {
+
+    tile_saltOre_saltOre {
+        S:01.Name=SaltMod:saltOre
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltDeepslateOre_saltDeepslateOre {
+        S:01.Name=SaltMod:saltDeepslateOre
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltLake_saltLake {
+        S:01.Name=SaltMod:saltLake
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_null_saltBlock {
+        S:01.Name=SaltMod:saltBlock
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltBrickStair_saltBrickStair {
+        S:01.Name=SaltMod:saltBrickStair
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltSlab_saltSlab {
+        S:01.Name=SaltMod:saltSlab
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltSlabDouble_saltSlabDouble {
+        S:01.Name=SaltMod:saltSlabDouble
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltLamp_saltLamp {
+        S:01.Name=SaltMod:saltLamp
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_null_saltDirt {
+        S:01.Name=SaltMod:saltDirt
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=loose
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltDirtLite_saltDirtLite {
+        S:01.Name=SaltMod:saltDirtLite
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=loose
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltGrass_saltGrass {
+        S:01.Name=SaltMod:saltGrass
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=1.0
+        D:09.Sanity=0.1
+        S:10.Stability=loose
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_grassTop_grassTop {
+        S:01.Name=SaltMod:grassTop
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=1.0
+        D:09.Sanity=0.1
+        S:10.Stability=loose
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_mudBlock_mudBlock {
+        S:01.Name=SaltMod:mudBlock
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=sand-like
+        B:11.Slides=true
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_mudBrickWet_mudBrickWet {
+        S:01.Name=SaltMod:mudBrickWet
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=loose
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_mudBrickDry_mudBrickDry {
+        S:01.Name=SaltMod:mudBrickDry
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_extractor_extractor {
+        S:01.Name=SaltMod:extractor
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_extractor_extractorLit {
+        S:01.Name=SaltMod:extractorLit
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_extractor_extractorSteam {
+        S:01.Name=SaltMod:extractorSteam
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=0.0
+        D:09.Sanity=0.0
+        S:10.Stability=average
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltCrystal_saltCrystal {
+        S:01.Name=SaltMod:saltCrystal
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=1.0
+        D:09.Sanity=0.1
+        S:10.Stability=none
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+    tile_saltWort_saltWort {
+        S:01.Name=SaltMod:saltWort
+        I:02.MetaID=-1
+        S:03.DropName=
+        I:04.DropMetaID=-1
+        I:05.DropNumber=-1
+        B:"06.Enable Temperature"=false
+        D:07.Temperature=0.0
+        D:"08.Air Quality"=1.0
+        D:09.Sanity=0.1
+        S:10.Stability=none
+        B:11.Slides=false
+        B:"12.Slides When Wet"=false
+        B:"13.[Torch] Does it go out?"=false
+        B:"14.[Torch] Does it go out in the rain?"=false
+        I:"15.[Torch] Go out chance"=10000
+        S:"16.[Torch] Go out Name (block)"=enviromine:offtorch
+    }
+
+}
+
+
+items {
+
+    tile_saltOre_saltOre {
+        S:01.Name=SaltMod:saltOre
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltDeepslateOre_saltDeepslateOre {
+        S:01.Name=SaltMod:saltDeepslateOre
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltLake_saltLake {
+        S:01.Name=SaltMod:saltLake
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_null_saltBlock {
+        S:01.Name=SaltMod:saltBlock
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltBrickStair_saltBrickStair {
+        S:01.Name=SaltMod:saltBrickStair
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltSlab_saltSlab {
+        S:01.Name=SaltMod:saltSlab
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltSlabDouble_saltSlabDouble {
+        S:01.Name=SaltMod:saltSlabDouble
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltLamp_saltLamp {
+        S:01.Name=SaltMod:saltLamp
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_null_saltDirt {
+        S:01.Name=SaltMod:saltDirt
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltDirtLite_saltDirtLite {
+        S:01.Name=SaltMod:saltDirtLite
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltGrass_saltGrass {
+        S:01.Name=SaltMod:saltGrass
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=0.0
+        D:"05.Ambient Air Quality"=0.025
+        D:"06.Ambient Santity"=0.1
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_grassTop_grassTop {
+        S:01.Name=SaltMod:grassTop
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=0.0
+        D:"05.Ambient Air Quality"=0.025
+        D:"06.Ambient Santity"=0.1
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_mudBlock_mudBlock {
+        S:01.Name=SaltMod:mudBlock
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_mudBrickWet_mudBrickWet {
+        S:01.Name=SaltMod:mudBrickWet
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_mudBrickDry_mudBrickDry {
+        S:01.Name=SaltMod:mudBrickDry
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_extractor_extractor {
+        S:01.Name=SaltMod:extractor
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_extractor_extractorLit {
+        S:01.Name=SaltMod:extractorLit
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_extractor_extractorSteam {
+        S:01.Name=SaltMod:extractorSteam
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltCrystal_saltCrystal {
+        S:01.Name=SaltMod:saltCrystal
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=0.0
+        D:"05.Ambient Air Quality"=0.025
+        D:"06.Ambient Santity"=0.1
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    tile_saltWort_saltWort {
+        S:01.Name=SaltMod:saltWort
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=0.0
+        D:"05.Ambient Air Quality"=0.025
+        D:"06.Ambient Santity"=0.1
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_hungerFood_hungerFood {
+        S:01.Name=SaltMod:hungerFood
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_stuffedFood_stuffedFood {
+        S:01.Name=SaltMod:stuffedFood
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_effectFoodPos_effectFoodPos {
+        S:01.Name=SaltMod:effectFoodPos
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_effectFoodNeg_effectFoodNeg {
+        S:01.Name=SaltMod:effectFoodNeg
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_achievItem_achivItem {
+        S:01.Name=SaltMod:achivItem
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_mineralMud_mineralMud {
+        S:01.Name=SaltMod:mineralMud
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_soda_soda {
+        S:01.Name=SaltMod:soda
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_powderedMilk_powderedMilk {
+        S:01.Name=SaltMod:powderedMilk
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_salt_salt {
+        S:01.Name=SaltMod:salt
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltPinch_saltPinch {
+        S:01.Name=SaltMod:saltPinch
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_sugarPinch_sugarPinch {
+        S:01.Name=SaltMod:sugarPinch
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_escargot_escargot {
+        S:01.Name=SaltMod:escargot
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltWortSeed_saltWortSeed {
+        S:01.Name=SaltMod:saltWortSeed
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltBeefCooked_saltBeefCooked {
+        S:01.Name=SaltMod:saltBeefCooked
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltPorkchopCooked_saltPorkchopCooked {
+        S:01.Name=SaltMod:saltPorkchopCooked
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltMuttonCooked_saltMuttonCooked {
+        S:01.Name=SaltMod:saltMuttonCooked
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltPotatoBaked_saltPotatoBaked {
+        S:01.Name=SaltMod:saltPotatoBaked
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltChickenCooked_saltChickenCooked {
+        S:01.Name=SaltMod:saltChickenCooked
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltRabbitCooked_saltRabbitCooked {
+        S:01.Name=SaltMod:saltRabbitCooked
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltFishCod_saltFishCod {
+        S:01.Name=SaltMod:saltFishCod
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltFishCodCooked_saltFishCodCooked {
+        S:01.Name=SaltMod:saltFishCodCooked
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltFishSalmon_saltFishSalmon {
+        S:01.Name=SaltMod:saltFishSalmon
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltFishSalmonCooked_saltFishSalmonCooked {
+        S:01.Name=SaltMod:saltFishSalmonCooked
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltFishClownfish_saltFishClownfish {
+        S:01.Name=SaltMod:saltFishClownfish
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_cornedBeef_cornedBeef {
+        S:01.Name=SaltMod:cornedBeef
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-10
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltBread_saltBread {
+        S:01.Name=SaltMod:saltBread
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltBeetroot_saltBeetroot {
+        S:01.Name=SaltMod:saltBeetroot
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltEgg_saltEgg {
+        S:01.Name=SaltMod:saltEgg
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltMushroomStew_saltMushroomStew {
+        S:01.Name=SaltMod:saltMushroomStew
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltRabbitStew_saltRabbitStew {
+        S:01.Name=SaltMod:saltRabbitStew
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltBeetrootSoup_saltBeetrootSoup {
+        S:01.Name=SaltMod:saltBeetrootSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_pumpkinPorridge_pumpkinPorridge {
+        S:01.Name=SaltMod:pumpkinPorridge
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltPumpkinPorridge_saltPumpkinPorridge {
+        S:01.Name=SaltMod:saltPumpkinPorridge
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_cactusStew_cactusStew {
+        S:01.Name=SaltMod:cactusStew
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltCactusStew_saltCactusStew {
+        S:01.Name=SaltMod:saltCactusStew
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_vegetableStew_vegetableStew {
+        S:01.Name=SaltMod:vegetableStew
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltVegetableStew_saltVegetableStew {
+        S:01.Name=SaltMod:saltVegetableStew
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_potatoMushroom_potatoMushroom {
+        S:01.Name=SaltMod:potatoMushroom
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltPotatoMushroom_saltPotatoMushroom {
+        S:01.Name=SaltMod:saltPotatoMushroom
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fishSoup_fishSoup {
+        S:01.Name=SaltMod:fishSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=25
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltFishSoup_saltFishSoup {
+        S:01.Name=SaltMod:saltFishSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fishSalmonSoup_fishSalmonSoup {
+        S:01.Name=SaltMod:fishSalmonSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=25
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltFishSalmonSoup_saltFishSalmonSoup {
+        S:01.Name=SaltMod:saltFishSalmonSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fishClownfishSoup_fishClownfishSoup {
+        S:01.Name=SaltMod:fishClownfishSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=25
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltFishClownfishSoup_saltFishClownfishSoup {
+        S:01.Name=SaltMod:saltFishClownfishSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=15
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_dandelionSalad_dandelionSalad {
+        S:01.Name=SaltMod:dandelionSalad
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltDandelionSalad_saltDandelionSalad {
+        S:01.Name=SaltMod:saltDandelionSalad
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_wheatSprouts_wheatSprouts {
+        S:01.Name=SaltMod:wheatSprouts
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltWheatSprouts_saltWheatSprouts {
+        S:01.Name=SaltMod:saltWheatSprouts
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_beetrootSalad_beetrootSalad {
+        S:01.Name=SaltMod:beetrootSalad
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltBeetrootSalad_saltBeetrootSalad {
+        S:01.Name=SaltMod:saltBeetrootSalad
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_herringUFC_herringUFC {
+        S:01.Name=SaltMod:herringUFC
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltHerringUFC_saltHerringUFC {
+        S:01.Name=SaltMod:saltHerringUFC
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltWortSalad_saltWortSalad {
+        S:01.Name=SaltMod:saltWortSalad
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltWortBeef_saltWortBeef {
+        S:01.Name=SaltMod:saltWortBeef
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltWortPorkchop_saltWortPorkchop {
+        S:01.Name=SaltMod:saltWortPorkchop
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltWortMutton_saltWortMutton {
+        S:01.Name=SaltMod:saltWortMutton
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fruitSalad_fruitSalad {
+        S:01.Name=SaltMod:fruitSalad
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_sugarFruitSalad_sugarFruitSalad {
+        S:01.Name=SaltMod:sugarFruitSalad
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_gratedCarrot_gratedCarrot {
+        S:01.Name=SaltMod:gratedCarrot
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_sugarGratedCarrot_sugarGratedCarrot {
+        S:01.Name=SaltMod:sugarGratedCarrot
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-5
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_melonSoup_melonSoup {
+        S:01.Name=SaltMod:melonSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=25
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_sugarMelonSoup_sugarMelonSoup {
+        S:01.Name=SaltMod:sugarMelonSoup
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=16
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_honeyedBerries_honeyedBerries {
+        S:01.Name=SaltMod:honeyedBerries
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-10
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_honeyedApple_honeyedApple {
+        S:01.Name=SaltMod:honeyedApple
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-10
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_honeyedPorkchop_honeyedPorkchop {
+        S:01.Name=SaltMod:honeyedPorkchop
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-10
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_chocolateBerries_chocolateBerries {
+        S:01.Name=SaltMod:chocolateBerries
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-10
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_chocolateBar_chocolateBar {
+        S:01.Name=SaltMod:chocolateBar
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-10
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_chocolatePie_chocolatePie {
+        S:01.Name=SaltMod:chocolatePie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=-10
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_carrotPie_carrotPie {
+        S:01.Name=SaltMod:carrotPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_applePie_applePie {
+        S:01.Name=SaltMod:applePie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_sweetberryPie_sweetberryPie {
+        S:01.Name=SaltMod:sweetberryPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_potatoPie_potatoPie {
+        S:01.Name=SaltMod:potatoPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_onionPie_onionPie {
+        S:01.Name=SaltMod:onionPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fishPie_fishPie {
+        S:01.Name=SaltMod:fishPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fishSalmonPie_fishSalmonPie {
+        S:01.Name=SaltMod:fishSalmonPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fishClownfishPie_fishClownfishPie {
+        S:01.Name=SaltMod:fishClownfishPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_shepherdsPie_shepherdsPie {
+        S:01.Name=SaltMod:shepherdsPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_mushroomPie_mushroomPie {
+        S:01.Name=SaltMod:mushroomPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltWortPie_saltWortPie {
+        S:01.Name=SaltMod:saltWortPie
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fermentedSaltWort_fermentedSaltWort {
+        S:01.Name=SaltMod:fermentedSaltWort
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_pickledMushroom_pickledMushroom {
+        S:01.Name=SaltMod:pickledMushroom
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_pickledFern_pickledFern {
+        S:01.Name=SaltMod:pickledFern
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_pickledOnion_pickledOnion {
+        S:01.Name=SaltMod:pickledOnion
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_preservedMelon_preservedMelon {
+        S:01.Name=SaltMod:preservedMelon
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=12
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_preservedSweetberries_preservedSweetberries {
+        S:01.Name=SaltMod:preservedSweetberries
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_preservedApple_preservedApple {
+        S:01.Name=SaltMod:preservedApple
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_fizzyDrink_fizzyDrink {
+        S:01.Name=SaltMod:fizzyDrink
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_muffin_muffin {
+        S:01.Name=SaltMod:muffin
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_mudHelmet_mudHelmet {
+        S:01.Name=SaltMod:mudHelmet
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_mudChestplate_mudChestplate {
+        S:01.Name=SaltMod:mudChestplate
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_mudLeggings_mudLeggings {
+        S:01.Name=SaltMod:mudLeggings
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_mudBoots_mudBoots {
+        S:01.Name=SaltMod:mudBoots
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_saltStar_saltStar {
+        S:01.Name=SaltMod:saltStar
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+    item_rainmaker_rainmaker {
+        S:01.Name=SaltMod:rainmaker
+        I:02.Damage=-1
+        B:"03.Enable Ambient Temperature"=false
+        D:"04.Ambient Temperature"=37.0
+        D:"05.Ambient Air Quality"=0.0
+        D:"06.Ambient Santity"=0.0
+        D:"07.Effect Temperature"=0.0
+        D:"08.Effect Air Quality"=0.0
+        D:"09.Effect Sanity"=0.0
+        D:"10.Effect Hydration"=0.0
+        D:"11.Effect Temperature Cap"=37.0
+        I:"12.CamelPack Fill Amount"=0
+        S:"13.CamelPack Return Item"=
+        I:"14.CamelPack Return Meta"=0
+    }
+
+}
+
+
+spoiling {
+
+    item_hungerFood_hungerFood {
+        S:01.ID=SaltMod:hungerFood
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_stuffedFood_stuffedFood {
+        S:01.ID=SaltMod:stuffedFood
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_effectFoodPos_effectFoodPos {
+        S:01.ID=SaltMod:effectFoodPos
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_effectFoodNeg_effectFoodNeg {
+        S:01.ID=SaltMod:effectFoodNeg
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_escargot_escargot {
+        S:01.ID=SaltMod:escargot
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltWortSeed_saltWortSeed {
+        S:01.ID=SaltMod:saltWortSeed
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltBeefCooked_saltBeefCooked {
+        S:01.ID=SaltMod:saltBeefCooked
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltPorkchopCooked_saltPorkchopCooked {
+        S:01.ID=SaltMod:saltPorkchopCooked
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltMuttonCooked_saltMuttonCooked {
+        S:01.ID=SaltMod:saltMuttonCooked
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltPotatoBaked_saltPotatoBaked {
+        S:01.ID=SaltMod:saltPotatoBaked
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltChickenCooked_saltChickenCooked {
+        S:01.ID=SaltMod:saltChickenCooked
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltRabbitCooked_saltRabbitCooked {
+        S:01.ID=SaltMod:saltRabbitCooked
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltFishCod_saltFishCod {
+        S:01.ID=SaltMod:saltFishCod
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltFishCodCooked_saltFishCodCooked {
+        S:01.ID=SaltMod:saltFishCodCooked
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltFishSalmon_saltFishSalmon {
+        S:01.ID=SaltMod:saltFishSalmon
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltFishSalmonCooked_saltFishSalmonCooked {
+        S:01.ID=SaltMod:saltFishSalmonCooked
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltFishClownfish_saltFishClownfish {
+        S:01.ID=SaltMod:saltFishClownfish
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_cornedBeef_cornedBeef {
+        S:01.ID=SaltMod:cornedBeef
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltBread_saltBread {
+        S:01.ID=SaltMod:saltBread
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltBeetroot_saltBeetroot {
+        S:01.ID=SaltMod:saltBeetroot
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltEgg_saltEgg {
+        S:01.ID=SaltMod:saltEgg
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltMushroomStew_saltMushroomStew {
+        S:01.ID=SaltMod:saltMushroomStew
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltRabbitStew_saltRabbitStew {
+        S:01.ID=SaltMod:saltRabbitStew
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltBeetrootSoup_saltBeetrootSoup {
+        S:01.ID=SaltMod:saltBeetrootSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_pumpkinPorridge_pumpkinPorridge {
+        S:01.ID=SaltMod:pumpkinPorridge
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltPumpkinPorridge_saltPumpkinPorridge {
+        S:01.ID=SaltMod:saltPumpkinPorridge
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_cactusStew_cactusStew {
+        S:01.ID=SaltMod:cactusStew
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltCactusStew_saltCactusStew {
+        S:01.ID=SaltMod:saltCactusStew
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_vegetableStew_vegetableStew {
+        S:01.ID=SaltMod:vegetableStew
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltVegetableStew_saltVegetableStew {
+        S:01.ID=SaltMod:saltVegetableStew
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_potatoMushroom_potatoMushroom {
+        S:01.ID=SaltMod:potatoMushroom
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltPotatoMushroom_saltPotatoMushroom {
+        S:01.ID=SaltMod:saltPotatoMushroom
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_fishSoup_fishSoup {
+        S:01.ID=SaltMod:fishSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltFishSoup_saltFishSoup {
+        S:01.ID=SaltMod:saltFishSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_fishSalmonSoup_fishSalmonSoup {
+        S:01.ID=SaltMod:fishSalmonSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltFishSalmonSoup_saltFishSalmonSoup {
+        S:01.ID=SaltMod:saltFishSalmonSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_fishClownfishSoup_fishClownfishSoup {
+        S:01.ID=SaltMod:fishClownfishSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltFishClownfishSoup_saltFishClownfishSoup {
+        S:01.ID=SaltMod:saltFishClownfishSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_dandelionSalad_dandelionSalad {
+        S:01.ID=SaltMod:dandelionSalad
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltDandelionSalad_saltDandelionSalad {
+        S:01.ID=SaltMod:saltDandelionSalad
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_wheatSprouts_wheatSprouts {
+        S:01.ID=SaltMod:wheatSprouts
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltWheatSprouts_saltWheatSprouts {
+        S:01.ID=SaltMod:saltWheatSprouts
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_beetrootSalad_beetrootSalad {
+        S:01.ID=SaltMod:beetrootSalad
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltBeetrootSalad_saltBeetrootSalad {
+        S:01.ID=SaltMod:saltBeetrootSalad
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_herringUFC_herringUFC {
+        S:01.ID=SaltMod:herringUFC
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltHerringUFC_saltHerringUFC {
+        S:01.ID=SaltMod:saltHerringUFC
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltWortSalad_saltWortSalad {
+        S:01.ID=SaltMod:saltWortSalad
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltWortBeef_saltWortBeef {
+        S:01.ID=SaltMod:saltWortBeef
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltWortPorkchop_saltWortPorkchop {
+        S:01.ID=SaltMod:saltWortPorkchop
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_saltWortMutton_saltWortMutton {
+        S:01.ID=SaltMod:saltWortMutton
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_fruitSalad_fruitSalad {
+        S:01.ID=SaltMod:fruitSalad
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_sugarFruitSalad_sugarFruitSalad {
+        S:01.ID=SaltMod:sugarFruitSalad
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_gratedCarrot_gratedCarrot {
+        S:01.ID=SaltMod:gratedCarrot
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_sugarGratedCarrot_sugarGratedCarrot {
+        S:01.ID=SaltMod:sugarGratedCarrot
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_melonSoup_melonSoup {
+        S:01.ID=SaltMod:melonSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_sugarMelonSoup_sugarMelonSoup {
+        S:01.ID=SaltMod:sugarMelonSoup
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_honeyedBerries_honeyedBerries {
+        S:01.ID=SaltMod:honeyedBerries
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_honeyedApple_honeyedApple {
+        S:01.ID=SaltMod:honeyedApple
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_honeyedPorkchop_honeyedPorkchop {
+        S:01.ID=SaltMod:honeyedPorkchop
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_chocolateBerries_chocolateBerries {
+        S:01.ID=SaltMod:chocolateBerries
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_chocolateBar_chocolateBar {
+        S:01.ID=SaltMod:chocolateBar
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_chocolatePie_chocolatePie {
+        S:01.ID=SaltMod:chocolatePie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_carrotPie_carrotPie {
+        S:01.ID=SaltMod:carrotPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_applePie_applePie {
+        S:01.ID=SaltMod:applePie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_sweetberryPie_sweetberryPie {
+        S:01.ID=SaltMod:sweetberryPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_potatoPie_potatoPie {
+        S:01.ID=SaltMod:potatoPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_onionPie_onionPie {
+        S:01.ID=SaltMod:onionPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_fishPie_fishPie {
+        S:01.ID=SaltMod:fishPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_fishSalmonPie_fishSalmonPie {
+        S:01.ID=SaltMod:fishSalmonPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_fishClownfishPie_fishClownfishPie {
+        S:01.ID=SaltMod:fishClownfishPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_shepherdsPie_shepherdsPie {
+        S:01.ID=SaltMod:shepherdsPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_mushroomPie_mushroomPie {
+        S:01.ID=SaltMod:mushroomPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+    item_saltWortPie_saltWortPie {
+        S:01.ID=SaltMod:saltWortPie
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=17
+    }
+
+    item_fermentedSaltWort_fermentedSaltWort {
+        S:01.ID=SaltMod:fermentedSaltWort
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=-1
+    }
+
+    item_pickledMushroom_pickledMushroom {
+        S:01.ID=SaltMod:pickledMushroom
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=-1
+    }
+
+    item_pickledFern_pickledFern {
+        S:01.ID=SaltMod:pickledFern
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=-1
+    }
+
+    item_pickledOnion_pickledOnion {
+        S:01.ID=SaltMod:pickledOnion
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=-1
+    }
+
+    item_preservedMelon_preservedMelon {
+        S:01.ID=SaltMod:preservedMelon
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=-1
+    }
+
+    item_preservedSweetberries_preservedSweetberries {
+        S:01.ID=SaltMod:preservedSweetberries
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=-1
+    }
+
+    item_preservedApple_preservedApple {
+        S:01.ID=SaltMod:preservedApple
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=-1
+    }
+
+    item_muffin_muffin {
+        S:01.ID=SaltMod:muffin
+        I:02.Damage=-1
+        S:"03.Rotten ID"=enviromine:rottenFood
+        I:"04.Rotten Damage"=0
+        I:"05.Days To Rot"=7
+    }
+
+}
+
+

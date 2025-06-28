@@ -1,0 +1,69 @@
+{
+  "questIDLow:4": -5267522284318682251,
+  "questIDHigh:4": -7004693941128247890,
+  "tasks:9": {
+    "0:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.gas_mask_filter_mono",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -4713753841831810208,
+      "questIDHigh:4": 1881433424964371339
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.gas_mask_filter_combo",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "hbm:item.gas_mask_m65",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "全面防护",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "你发现你被骗了……那些防护装备根本[url]不能根绝[/url]你患上尘肺病，而且你还是一而再再而三地死在地狱中。或者说，它们顶多只能延缓空气质量的衰减。好吧，我承认我骗了你。其实你需要更[url]高级的滤芯[/url]。"
+    }
+  }
+}

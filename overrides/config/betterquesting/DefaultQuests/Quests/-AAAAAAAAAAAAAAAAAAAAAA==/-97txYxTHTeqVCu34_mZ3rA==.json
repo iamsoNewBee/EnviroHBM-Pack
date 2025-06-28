@@ -1,0 +1,81 @@
+{
+  "questIDLow:4": -7707086158615382100,
+  "questIDHigh:4": -595757855332151830,
+  "tasks:9": {
+    "0:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "camping:tent",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -7996701060940863901,
+      "questIDHigh:4": -5011081735808925444
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:chest",
+          "OreDict:8": "",
+          "Count:3": 4
+        },
+        "1:10": {
+          "Damage:2": 1,
+          "id:8": "camping:lantern",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "2:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:glowstone_dust",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "camping:tent",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "野营者的家！",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "还记得之前关于睡觉的地方吗？如果你忘了，我想半夜把你[url]吵醒[/url]的僵尸应该已经给过你教训了……但如果你就是不喜欢呆在家里，或者要做什么长途旅行，那就一股脑钻进[url]帐篷[/url]里吧！它就是一个临时的小基地——麻雀虽小，五脏俱全！\n【[url]右键[/url]把你的睡袋放进去试试！】\n[img height\u003d100]knowyourselves:1/camptent.png[/img]"
+    }
+  }
+}

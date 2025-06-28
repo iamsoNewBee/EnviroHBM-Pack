@@ -1,0 +1,84 @@
+{
+  "category": "ieVillageCrates",
+  "count_min": 3,
+  "count_max": 9,
+  "loot": [
+    {
+      "item": "ImmersiveEngineering:material",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 2,
+      "count_max": 7
+    },
+    {
+      "item": "ImmersiveEngineering:material",
+      "damage": 11,
+      "weight": 8,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "ImmersiveEngineering:material",
+      "damage": 12,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "etfuturum:copper_ingot",
+      "damage": 0,
+      "weight": 16,
+      "count_min": 2,
+      "count_max": 5
+    },
+    {
+      "item": "hbm:item.ingot_aluminium",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "hbm:item.ingot_lead",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "hbm:item.ingot_steel",
+      "damage": 0,
+      "weight": 8,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "ImmersiveEngineering:blueprint",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "ImmersiveEngineering:blueprint",
+      "damage": 1,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "ImmersiveEngineering:blueprint",
+      "damage": 2,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "ImmersiveEngineering:shader",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}

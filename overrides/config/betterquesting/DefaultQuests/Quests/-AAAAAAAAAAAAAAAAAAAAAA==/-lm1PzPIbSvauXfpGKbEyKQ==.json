@@ -1,0 +1,123 @@
+{
+  "questIDLow:4": -5882270359021866455,
+  "questIDHigh:4": -7607336453905102090,
+  "tasks:9": {
+    "0:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "MoCreatures:furhelmet",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "MoCreatures:furchest",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "2:10": {
+          "Damage:2": 0,
+          "id:8": "MoCreatures:furlegs",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "3:10": {
+          "Damage:2": 0,
+          "id:8": "MoCreatures:furboots",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    },
+    "1:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "camping:armorFurHelm",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "camping:armorFurChest",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "2:10": {
+          "Damage:2": 0,
+          "id:8": "camping:armorFurLeg",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "3:10": {
+          "Damage:2": 0,
+          "id:8": "camping:armorFurBoots",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -8647352310054157481,
+      "questIDHigh:4": 6879320803324807219
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:string",
+          "OreDict:8": "",
+          "Count:3": 32
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "MoCreatures:fur",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "动物皮毛",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "皮革其实根本抵御不了真正的严寒！但在冬天，那些[url]棕熊、野狼、山羊、甚至鼹鼠[/url]不还是活蹦乱跳的吗？这给了你思路……"
+    }
+  }
+}

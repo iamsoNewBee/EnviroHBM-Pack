@@ -1,0 +1,37 @@
+{
+  "questIDLow:4": -6702939084205542465,
+  "questIDHigh:4": -1548813811628553656,
+  "tasks:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -9167292272389335706,
+      "questIDHigh:4": 5547744780175559363
+    }
+  },
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 3,
+        "id:8": "ImmersiveEngineering:metalDevice2",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "电力时代",
+      "snd_complete:8": "random.levelup",
+      "simultaneous:1": 0,
+      "taskLogic:8": "AND",
+      "autoClaim:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "No Description"
+    }
+  }
+}

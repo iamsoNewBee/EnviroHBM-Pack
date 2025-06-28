@@ -1,0 +1,74 @@
+{
+  "questIDLow:4": -8932525697135773637,
+  "questIDHigh:4": -6494342330508361459,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:coal",
+          "OreDict:8": "",
+          "Count:3": 64
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.lignite",
+          "OreDict:8": "",
+          "Count:3": 64
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 0,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": 4,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "hbm:item.filter_coal",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:coal_block",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "工伤认定",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "你发现了一处巨型[url]煤矿[/url]！你双眼放光，直接连锁挖矿启动了。一瞬间煤矿塞满了你的背包！然而还没来得及窃喜,你就在[url]矿尘[/url]里呛死了……"
+    }
+  }
+}

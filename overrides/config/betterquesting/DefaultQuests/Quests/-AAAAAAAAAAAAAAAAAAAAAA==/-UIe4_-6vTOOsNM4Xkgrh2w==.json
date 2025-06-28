@@ -1,0 +1,65 @@
+{
+  "questIDLow:4": -6037974599767236133,
+  "questIDHigh:4": 5802810054250810595,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:snowball",
+          "OreDict:8": "",
+          "Count:3": 32
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "betterquesting:placeholder",
+          "OreDict:8": "",
+          "tag:10": {
+            "orig_id:8": "enviromine:coldWaterBottle",
+            "orig_meta:3": 0
+          },
+          "Count:3": 3
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 0,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -4848186338052341833,
+      "questIDHigh:4": 2255536963091186043
+    }
+  },
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:snow",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "这个杀手不太“冷”",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "听完啰嗦了一堆关于“温暖”的事，你头昏脑胀几乎要中暑了。我也不得不承认，这个世界还是有更多的“热”门话题。不然，为什么总有人说“全球变暖”！先往自己嘴里塞几块[url]雪[/url]吧"
+    }
+  }
+}

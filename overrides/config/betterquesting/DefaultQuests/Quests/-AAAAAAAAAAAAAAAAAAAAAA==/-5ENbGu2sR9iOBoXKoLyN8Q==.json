@@ -1,0 +1,62 @@
+{
+  "questIDLow:4": -8212729765136921103,
+  "questIDHigh:4": -1998653638407600168,
+  "tasks:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": 8,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "TConstruct:battlesign",
+        "OreDict:8": "",
+        "Count:3": 1,
+        "tag:10": {
+          "InfiTool:10": {
+            "HarvestLevel:3": 2,
+            "BonusDurability:3": 0,
+            "BaseDurability:3": 714,
+            "Handle:3": 14,
+            "Damage:3": 0,
+            "Built:1": 1,
+            "Broken:1": 0,
+            "BaseAttack:3": 3,
+            "Attack:3": 3,
+            "Shoddy:5": 0.0,
+            "ModDurability:5": 0.0,
+            "RenderHandle:3": 14,
+            "Head:3": 14,
+            "MiningSpeed:3": 800,
+            "Modifiers:3": 4,
+            "Unbreaking:3": 1,
+            "TotalDurability:3": 714,
+            "RenderHead:3": 14
+          },
+          "display:10": {
+            "Name:8": "§f青铜 战斗牌子"
+          }
+        }
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "弹反！",
+      "snd_complete:8": "random.levelup",
+      "simultaneous:1": 0,
+      "taskLogic:8": "AND",
+      "autoClaim:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "No Description"
+    }
+  }
+}

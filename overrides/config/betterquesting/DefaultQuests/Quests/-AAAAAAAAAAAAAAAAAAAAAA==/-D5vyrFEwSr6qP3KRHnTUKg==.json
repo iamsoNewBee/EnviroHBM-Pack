@@ -1,0 +1,54 @@
+{
+  "questIDLow:4": -6179094196122233814,
+  "questIDHigh:4": 1124759353869486782,
+  "tasks:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -6453409288256540572,
+      "questIDHigh:4": 3917679100014379691
+    },
+    "1:10": {
+      "questIDLow:4": -5447600221306615499,
+      "questIDHigh:4": 1946139455582850692
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "400:33",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "UNLOCKED",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "400:33",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "@@#……￥%\u0026……%\u0026……@%\u0026#￥￥\u0026%#\u0026",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "#￥……@%\u0026#…[url]你[/url]…*\u0026\u0026……%\u0026@#……\u0026#%￥#@#[url]}{#zhongyu￥[/url][/DGJE#T\u0026^@$E{R|@#NJRU@^**#$@W_+-\u003d3u26E*^*#$Y*@^#$Ybec[url]omeDGF\u0026#@[/url]$T*#I\u0026$wanqvande*\u0026^@*#$#E[url]*CRA[/url]ZY#……*#@$}D?@\u003c#$:\u003c?E\u003cR@#T%@."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "questLineIDHigh:4": 6490223473999433433,
+  "questLineIDLow:4": -5333395761127910510,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:book",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "bg_size:3": 256,
+      "bg_image:8": "",
+      "name:8": "New Quest Line",
+      "desc:8": "No Description"
+    }
+  }
+}

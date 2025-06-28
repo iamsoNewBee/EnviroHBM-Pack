@@ -1,0 +1,6 @@
+Total amount of conflicted potion ids: 3
+IDs in conflict:
+
+28 is asked by: potion.nutrition:malnourished (ca.wescook.nutrition.potions.PotionMalnourished), potion.swarmed (darkbum.saltymod.potion.PotionSwarmed)
+29 is asked by: potion.well_fed (darkbum.saltymod.potion.PotionWellFed), immersiveengineering.potion.conductive (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+30 is asked by: potion.inspired (darkbum.saltymod.potion.PotionInspired), potion.enviromine.insanity (enviromine.EnviroPotion)

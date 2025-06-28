@@ -1,0 +1,61 @@
+{
+  "questIDLow:4": -4848186338052341833,
+  "questIDHigh:4": 2255536963091186043,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {},
+      "partialMatch:1": 1,
+      "consume:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": 7,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:coal",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "UNLOCKED",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "tempitems:temp",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "温度",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "左下方的温度计，反映着你的[url]体温[/url]。黑线代表着环境温度，而白点是你的体内温度。很明显，前者决定了后者。燃烧的熔炉、火把、岩浆等会使你[url]体温升高[/url]。相反，身处寒冷群系、喝冷水、淋雨等则会[url]降低体温[/url]。【很经典吧！】无论物品还是方块都会影响你的体温。如果你体温超过了[url]38.5°C[/url]，你还会[url]流汗[/url]！如果你不想开局就让自己寸步难行，请时刻注意不要让自己中暑或失温！\n       "
+    }
+  }
+}

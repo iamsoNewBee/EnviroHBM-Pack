@@ -1,0 +1,14 @@
+{
+  "_name": "camping.bearGrizzly",
+  "drops": 
+[{  
+    "function" : "remove",
+    "id" : "camping:animalParts",
+    "damage" : "1"},{
+"function" : "add",
+"id" : "MoCreatures:hide",
+"count" : "3"
+}],
+  "pre_stats": [],
+  "stats": []
+}

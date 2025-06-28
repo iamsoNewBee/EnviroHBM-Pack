@@ -1,0 +1,49 @@
+{
+  "category": "vn_fletcher",
+  "count_min": 1,
+  "count_max": 6,
+  "loot": [
+    {
+      "item": "minecraft:emerald",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:arrow",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:feather",
+      "damage": 0,
+      "weight": 6,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:egg",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:flint",
+      "damage": 0,
+      "weight": 6,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:stick",
+      "damage": 0,
+      "weight": 6,
+      "count_min": 1,
+      "count_max": 3
+    }
+  ]
+}

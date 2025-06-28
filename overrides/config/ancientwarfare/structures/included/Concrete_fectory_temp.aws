@@ -1,0 +1,49 @@
+# Ancient Warfare Structure Template File
+# Auto-generated structure template file. created on: 12/4/2024 at: 22:32:35
+# Lines beginning with # denote comments
+
+header:
+version=2.1
+name=Concrete_fectory_temp
+size=1,1,1
+offset=0,0,0
+:endheader
+
+#### VALIDATION ####
+validation:
+type=ground
+survival=true
+worldGenEnabled=false
+unique=false
+preserveBlocks=false
+selectionWeight=0
+clusterValue=0
+minDuplicateDistance=0
+dimensionWhiteList=false
+dimensionList=
+biomeWhiteList=false
+biomeList=
+leveling=0
+fill=0
+border=0
+validTargetBlocks=
+blockSwap=false
+data:
+:enddata
+:endvalidation
+
+#### LAYERS ####
+layer: 0
+1
+:endlayer
+
+#### RULES ####
+rule:
+plugin=vanillaBlocks
+number=1
+data:
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:monster_egg","id":"ss"},"meta":{"val":"0","id":"pi"}},"id":"ct"}}
+:enddata
+:endrule
+
+#### ENTITIES ####

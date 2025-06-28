@@ -1,0 +1,49 @@
+{
+  "category": "vn_temple",
+  "count_min": 3,
+  "count_max": 9,
+  "loot": [
+    {
+      "item": "minecraft:redstone",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:bread",
+      "damage": 0,
+      "weight": 7,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "damage": 0,
+      "weight": 7,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:dye",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 11
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:emerald",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 4
+    }
+  ]
+}

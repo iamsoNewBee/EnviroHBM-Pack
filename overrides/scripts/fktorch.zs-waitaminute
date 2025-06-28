@@ -1,0 +1,14 @@
+recipes.removeShaped(<netherlicious:Lantern>);
+recipes.removeShaped(<SaltMod:saltLamp>);
+recipes.removeShaped(<minecraft:lit_pumpkin>);
+recipes.removeShaped(<netherlicious:LanternEfrine>);
+recipes.removeShaped(<netherlicious:Lantern>);
+recipes.removeShaped(<netherlicious:LanternGold>);
+
+recipes.removeShaped(<netherlicious:GourdLantern>);
+recipes.addShaped(<SaltMod:saltLamp>, [[<SaltMod:saltBlock>], [<enviromine:firetorch>]]);
+recipes.addShaped(<netherlicious:GourdLantern>, [[<netherlicious:CarvedGourd>], [<enviromine:firetorch>]]);
+recipes.addShaped(<minecraft:lit_pumpkin>, [[<minecraft:pumpkin>], [<enviromine:firetorch>]]);
+recipes.addShaped(<netherlicious:LanternEfrine>, [[<ore:nuggetEfrine>, <ore:nuggetEfrine>, <ore:nuggetEfrine>], [<ore:nuggetEfrine>, <enviromine:firetorch>, <ore:nuggetEfrine>], [<ore:nuggetEfrine>, <ore:nuggetEfrine>, <ore:nuggetEfrine>]]);
+recipes.addShaped(<netherlicious:LanternGold>, [[<ore:cropAurigold>, <ore:cropAurigold>, <ore:cropAurigold>], [<ore:cropAurigold>, <enviromine:firetorch>, <ore:cropAurigold>], [<ore:cropAurigold>, <ore:cropAurigold>, <ore:cropAurigold>]]);
+recipes.addShaped(<netherlicious:Lantern>, [[<ImmersiveEngineering:metal:21>,<ImmersiveEngineering:metal:21>,<ImmersiveEngineering:metal:21>], [<ImmersiveEngineering:metal:21>, <enviromine:firetorch>, <ImmersiveEngineering:metal:21>], [<ImmersiveEngineering:metal:21>,<ImmersiveEngineering:metal:21>,<ImmersiveEngineering:metal:21>]]);

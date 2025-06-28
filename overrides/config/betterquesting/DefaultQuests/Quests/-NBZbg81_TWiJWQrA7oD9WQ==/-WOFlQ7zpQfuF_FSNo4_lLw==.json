@@ -1,0 +1,37 @@
+{
+  "questIDLow:4": -8792059405222812369,
+  "questIDHigh:4": 6404511486704173563,
+  "tasks:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -9143435478471662765,
+      "questIDHigh:4": -2200366618106771262
+    }
+  },
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:planks",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "万“有”引力！",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "希望你没有被[url]坠落[/url]的原木方块吓到！正如牛顿所说，所有物体都存在引力！不过你不用担心你的房顶会塌下来。你大可以在有支撑的地方以[url]直线[/url]或[url]斜向上对角线[/url]的方向搭建方块。不过搭建的长度主要取决于方块的[url]稳定性[/url]。木板就是一种具有良好稳定性的材料！反之泥土几乎一碰就塌，用它来建房子简直是个坏主意。今后，你还会遇见更多性质各异的方块。"
+    }
+  }
+}

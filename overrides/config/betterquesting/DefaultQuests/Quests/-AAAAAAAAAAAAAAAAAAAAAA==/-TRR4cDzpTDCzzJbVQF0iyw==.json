@@ -1,0 +1,37 @@
+{
+  "questIDLow:4": -5490848003019431221,
+  "questIDHigh:4": 5554196663908256816,
+  "tasks:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": 8,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:lit_pumpkin",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "用火安全",
+      "snd_complete:8": "random.levelup",
+      "simultaneous:1": 0,
+      "taskLogic:8": "AND",
+      "autoClaim:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "No Description"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "questIDLow:4": -5675075852577433178,
+  "questIDHigh:4": -8592388975400104152,
+  "tasks:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -5011036810844679717,
+      "questIDHigh:4": -5534952802116219168
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 4,
+          "id:8": "ImmersiveEngineering:woodenDevice",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 4,
+        "id:8": "ImmersiveEngineering:woodenDevice",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "背包中的箱子",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "打破箱子，内容物洒落一地。你看着一地鸡毛陷入深深沉思，为什么就不能把箱子放到背包里？其实可以！只不过需要更坚固的材料！"
+    }
+  }
+}

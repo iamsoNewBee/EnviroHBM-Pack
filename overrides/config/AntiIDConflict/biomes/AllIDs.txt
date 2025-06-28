@@ -1,0 +1,260 @@
+Total amount of free biome ids: 65
+Total amount of occupied biome ids: 191
+Total amount of conflicted biome ids: 1
+All ids and their position:
+0 is Occupied by Ocean (biomesoplenty.common.biome.overridden.BiomeGenBOPOcean)
+1 is Occupied by Plains (biomesoplenty.common.biome.overridden.BiomeGenBOPPlains)
+2 is Occupied by Desert (biomesoplenty.common.biome.overridden.BiomeGenBOPDesert)
+3 is Occupied by Extreme Hills (biomesoplenty.common.biome.overridden.BiomeGenBOPExtremeHills)
+4 is Occupied by Forest (biomesoplenty.common.biome.overridden.BiomeGenBOPForest)
+5 is Occupied by Taiga (biomesoplenty.common.biome.overridden.BiomeGenBOPTaiga)
+6 is Occupied by Swampland (biomesoplenty.common.biome.overridden.BiomeGenBOPSwamp)
+7 is Occupied by River (biomesoplenty.common.biome.overridden.BiomeGenBOPRiver)
+8 is Occupied by Hell (biomesoplenty.common.biome.overridden.BiomeGenBOPHell)
+9 is Occupied by Sky (net.minecraft.world.biome.BiomeGenEnd)
+10 is Occupied by FrozenOcean (net.minecraft.world.biome.BiomeGenOcean)
+11 is Occupied by FrozenRiver (net.minecraft.world.biome.BiomeGenRiver)
+12 is Occupied by Ice Plains (biomesoplenty.common.biome.overridden.BiomeGenBOPIcePlains)
+13 is Occupied by Ice Mountains (net.minecraft.world.biome.BiomeGenSnow)
+14 is Occupied by MushroomIsland (biomesoplenty.common.biome.overridden.BiomeGenBOPMushroomIsland)
+15 is Occupied by MushroomIslandShore (biomesoplenty.common.biome.overridden.BiomeGenBOPMushroomIsland)
+16 is Occupied by Beach (net.minecraft.world.biome.BiomeGenBeach)
+17 is Occupied by DesertHills (biomesoplenty.common.biome.overridden.BiomeGenBOPDesert)
+18 is Occupied by ForestHills (biomesoplenty.common.biome.overridden.BiomeGenBOPForest)
+19 is Occupied by TaigaHills (biomesoplenty.common.biome.overridden.BiomeGenBOPTaiga)
+20 is Occupied by Extreme Hills Edge (biomesoplenty.common.biome.overridden.BiomeGenBOPExtremeHills)
+21 is Occupied by Jungle (biomesoplenty.common.biome.overridden.BiomeGenBOPJungle)
+22 is Occupied by JungleHills (biomesoplenty.common.biome.overridden.BiomeGenBOPJungle)
+23 is Occupied by JungleEdge (biomesoplenty.common.biome.overridden.BiomeGenBOPJungle)
+24 is Occupied by Deep Ocean (net.minecraft.world.biome.BiomeGenOcean)
+25 is Occupied by Stone Beach (net.minecraft.world.biome.BiomeGenStoneBeach)
+26 is Occupied by Cold Beach (net.minecraft.world.biome.BiomeGenBeach)
+27 is Occupied by Birch Forest (biomesoplenty.common.biome.overridden.BiomeGenBOPBirchForest)
+28 is Occupied by Birch Forest Hills (biomesoplenty.common.biome.overridden.BiomeGenBOPBirchForest)
+29 is Occupied by Roofed Forest (biomesoplenty.common.biome.overridden.BiomeGenBOPRoofedForest)
+30 is Occupied by Cold Taiga (biomesoplenty.common.biome.overridden.BiomeGenBOPTaiga)
+31 is Occupied by Cold Taiga Hills (biomesoplenty.common.biome.overridden.BiomeGenBOPTaiga)
+32 is Occupied by Mega Taiga (net.minecraft.world.biome.BiomeGenTaiga)
+33 is Occupied by Mega Taiga Hills (net.minecraft.world.biome.BiomeGenTaiga)
+34 is Occupied by Extreme Hills+ (net.minecraft.world.biome.BiomeGenHills)
+35 is Occupied by Savanna (biomesoplenty.common.biome.overridden.BiomeGenBOPSavanna)
+36 is Occupied by Savanna Plateau (biomesoplenty.common.biome.overridden.BiomeGenBOPSavanna)
+37 is Occupied by Mesa (biomesoplenty.common.biome.overridden.BiomeGenBOPMesa)
+38 is Occupied by Mesa Plateau F (biomesoplenty.common.biome.overridden.BiomeGenBOPMesa)
+39 is Occupied by Mesa Plateau (biomesoplenty.common.biome.overridden.BiomeGenBOPMesa)
+40 is asked by: Dry River (biomesoplenty.common.biome.overworld.tech.BiomeGenDryRiver), Salt Marsh (darkbum.saltymod.world.biome.BiomeGenSaltMarsh)
+41 is Occupied by Silkglades (biomesoplenty.common.biome.overworld.sub.BiomeGenSilkglades)
+42 is Occupied by Inner Crater (com.hbm.world.biome.BiomeGenCraterBase$BiomeGenCraterInner)
+43 is Occupied by Bayou (biomesoplenty.common.biome.overworld.BiomeGenBayou)
+44 is Occupied by Bog (biomesoplenty.common.biome.overworld.BiomeGenBog)
+45 is Occupied by Boreal Forest (biomesoplenty.common.biome.overworld.BiomeGenBorealForest)
+46 is Occupied by Brushland (biomesoplenty.common.biome.overworld.BiomeGenBrushland)
+47 is Occupied by Canyon (biomesoplenty.common.biome.overworld.BiomeGenCanyon)
+48 is Occupied by Chaparral (biomesoplenty.common.biome.overworld.BiomeGenChaparral)
+49 is Occupied by Cherry Blossom Grove (biomesoplenty.common.biome.overworld.BiomeGenCherryBlossomGrove)
+50 is Occupied by Coniferous Forest (biomesoplenty.common.biome.overworld.BiomeGenConiferousForest)
+51 is Occupied by Snowy Coniferous Forest (biomesoplenty.common.biome.overworld.BiomeGenConiferousForestSnow)
+52 is Occupied by Crag (biomesoplenty.common.biome.overworld.BiomeGenCrag)
+53 is Occupied by Dead Forest (biomesoplenty.common.biome.overworld.BiomeGenDeadForest)
+54 is Occupied by Dead Swamp (biomesoplenty.common.biome.overworld.BiomeGenDeadSwamp)
+55 is Occupied by Deciduous Forest (biomesoplenty.common.biome.overworld.BiomeGenDeciduousForest)
+56 is Occupied by Dense Forest (biomesoplenty.common.biome.overworld.BiomeGenDenseForest)
+57 is Occupied by Eucalyptus Forest (biomesoplenty.common.biome.overworld.BiomeGenEucalyptusForest)
+58 is Occupied by Fen (biomesoplenty.common.biome.overworld.BiomeGenFen)
+59 is Occupied by Flower Field (biomesoplenty.common.biome.overworld.BiomeGenFlowerField)
+60 is Occupied by Frost Forest (biomesoplenty.common.biome.overworld.BiomeGenFrostForest)
+61 is Occupied by Fungi Forest (biomesoplenty.common.biome.overworld.BiomeGenFungiForest)
+62 is Occupied by Garden (biomesoplenty.common.biome.overworld.BiomeGenGarden)
+63 is Occupied by Grassland (biomesoplenty.common.biome.overworld.BiomeGenGrassland)
+64 is Occupied by Grove (biomesoplenty.common.biome.overworld.BiomeGenGrove)
+65 is Occupied by Heathland (biomesoplenty.common.biome.overworld.BiomeGenHeathland)
+66 is Occupied by Highland (biomesoplenty.common.biome.overworld.BiomeGenHighland)
+67 is Occupied by Jade Cliffs (biomesoplenty.common.biome.overworld.BiomeGenJadeCliffs)
+68 is Occupied by Land of Lakes (biomesoplenty.common.biome.overworld.BiomeGenLandOfLakes)
+69 is Occupied by Lavender Fields (biomesoplenty.common.biome.overworld.BiomeGenLavenderFields)
+70 is Occupied by Lush Desert (biomesoplenty.common.biome.overworld.BiomeGenLushDesert)
+71 is Occupied by Lush Swamp (biomesoplenty.common.biome.overworld.BiomeGenLushSwamp)
+72 is Occupied by Maple Woods (biomesoplenty.common.biome.overworld.BiomeGenMapleWoods)
+73 is Occupied by Marsh (biomesoplenty.common.biome.overworld.BiomeGenMarsh)
+74 is Occupied by Meadow (biomesoplenty.common.biome.overworld.BiomeGenMeadow)
+75 is Occupied by Moor (biomesoplenty.common.biome.overworld.BiomeGenMoor)
+76 is Occupied by Mountain (biomesoplenty.common.biome.overworld.BiomeGenMountain)
+77 is Occupied by Mystic Grove (biomesoplenty.common.biome.overworld.BiomeGenMysticGrove)
+78 is Occupied by Ominous Woods (biomesoplenty.common.biome.overworld.BiomeGenOminousWoods)
+79 is Occupied by Orchard (biomesoplenty.common.biome.overworld.BiomeGenOrchard)
+80 is Avaible
+81 is Avaible
+82 is Occupied by Prairie (biomesoplenty.common.biome.overworld.BiomeGenPrairie)
+83 is Occupied by Rainforest (biomesoplenty.common.biome.overworld.BiomeGenRainforest)
+84 is Occupied by Redwood Forest (biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest)
+85 is Occupied by Sacred Springs (biomesoplenty.common.biome.overworld.BiomeGenSacredSprings)
+86 is Occupied by Seasonal Forest (biomesoplenty.common.biome.overworld.BiomeGenSeasonalForest)
+87 is Occupied by Shield (biomesoplenty.common.biome.overworld.BiomeGenShield)
+88 is Occupied by Shrubland (biomesoplenty.common.biome.overworld.BiomeGenShrubland)
+89 is Occupied by Sludgepit (biomesoplenty.common.biome.overworld.BiomeGenSludgepit)
+90 is Occupied by Steppe (biomesoplenty.common.biome.overworld.BiomeGenSteppe)
+91 is Occupied by Temperate Rainforest (biomesoplenty.common.biome.overworld.BiomeGenTemperateRainforest)
+92 is Occupied by Thicket (biomesoplenty.common.biome.overworld.BiomeGenThicket)
+93 is Occupied by Tropical Rainforest (biomesoplenty.common.biome.overworld.BiomeGenTropicalRainforest)
+94 is Occupied by Tundra (biomesoplenty.common.biome.overworld.BiomeGenTundra)
+95 is Occupied by Wasteland (biomesoplenty.common.biome.overworld.BiomeGenWasteland)
+96 is Occupied by Wetland (biomesoplenty.common.biome.overworld.BiomeGenWetland)
+97 is Occupied by Woodland (biomesoplenty.common.biome.overworld.BiomeGenWoodland)
+98 is Occupied by Xeric Shrubland (biomesoplenty.common.biome.overworld.BiomeGenXericShrubland)
+99 is Occupied by Coral Reef (biomesoplenty.common.biome.overworld.ocean.BiomeGenCoralReef)
+100 is Occupied by Kelp Forest (biomesoplenty.common.biome.overworld.ocean.BiomeGenKelpForest)
+101 is Occupied by Tropics (biomesoplenty.common.biome.overworld.sub.BiomeGenTropics)
+102 is Occupied by Volcano (biomesoplenty.common.biome.overworld.sub.BiomeGenVolcano)
+103 is Occupied by Mangrove (biomesoplenty.common.biome.overworld.sub.BiomeGenMangrove)
+104 is Occupied by Alps Forest (biomesoplenty.common.biome.overworld.sub.BiomeGenAlpsForest)
+105 is Occupied by Canyon Ravine (biomesoplenty.common.biome.overworld.sub.BiomeGenCanyonRavine)
+106 is Occupied by Glacier (biomesoplenty.common.biome.overworld.sub.BiomeGenGlacier)
+107 is Occupied by Land of Lakes Marsh (biomesoplenty.common.biome.overworld.sub.BiomeGenLandOfLakesMarsh)
+108 is Occupied by Meadow Forest (biomesoplenty.common.biome.overworld.sub.BiomeGenMeadowForest)
+109 is Occupied by Oasis (biomesoplenty.common.biome.overworld.sub.BiomeGenOasis)
+110 is Occupied by Quagmire (biomesoplenty.common.biome.overworld.sub.BiomeGenQuagmire)
+111 is Occupied by Scrubland (biomesoplenty.common.biome.overworld.sub.BiomeGenScrubland)
+112 is Occupied by Temperate Ocean (rwg.biomes.base.BaseBiomeOcean)
+113 is Avaible
+114 is Avaible
+115 is Avaible
+116 is Avaible
+117 is Occupied by Boneyard (biomesoplenty.common.biome.nether.BiomeGenBoneyard)
+118 is Occupied by Visceral Heap (biomesoplenty.common.biome.nether.BiomeGenVisceralHeap)
+119 is Occupied by Undergarden (biomesoplenty.common.biome.nether.BiomeGenUndergarden)
+120 is Occupied by Polar Chasm (biomesoplenty.common.biome.nether.BiomeGenPolarChasm)
+121 is Occupied by Spectral Garden (biomesoplenty.common.biome.end.BiomeGenSpectralGarden)
+122 is Occupied by Lush River (biomesoplenty.common.biome.overworld.tech.BiomeGenLushRiver)
+123 is Avaible
+124 is Occupied by Storage Cell (appeng.spatial.BiomeGenStorage)
+125 is Occupied by Alps (biomesoplenty.common.biome.overworld.BiomeGenAlps)
+126 is Occupied by Arctic (biomesoplenty.common.biome.overworld.BiomeGenArctic)
+127 is Occupied by Bamboo Forest (biomesoplenty.common.biome.overworld.BiomeGenBambooForest)
+128 is Occupied by Origin Valley (biomesoplenty.common.biome.overworld.BiomeGenOriginValley)
+129 is Occupied by Sunflower Plains (net.minecraft.world.biome.BiomeGenPlains)
+130 is Occupied by Desert M (net.minecraft.world.biome.BiomeGenDesert)
+131 is Occupied by Extreme Hills M (net.minecraft.world.biome.BiomeGenHills)
+132 is Occupied by Flower Forest (net.minecraft.world.biome.BiomeGenForest)
+133 is Occupied by Taiga M (net.minecraft.world.biome.BiomeGenTaiga)
+134 is Occupied by Swampland M (net.minecraft.world.biome.BiomeGenSwamp)
+135 is Occupied by Outback (biomesoplenty.common.biome.overworld.BiomeGenOutback)
+136 is Occupied by Ice River (rwg.biomes.base.BaseBiomeRiver)
+137 is Occupied by Cold River (rwg.biomes.base.BaseBiomeRiver)
+138 is Occupied by Temperate River (rwg.biomes.base.BaseBiomeRiver)
+139 is Occupied by Hot River (rwg.biomes.base.BaseBiomeRiver)
+140 is Occupied by Ice Plains Spikes (net.minecraft.world.biome.BiomeGenSnow)
+141 is Occupied by Seasonal Forest Clearing (biomesoplenty.common.biome.overworld.sub.BiomeGenSeasonalForestClearing)
+142 is Occupied by Spruce Woods (biomesoplenty.common.biome.overworld.sub.BiomeGenSpruceWoods)
+143 is Occupied by Corrupted Sands (biomesoplenty.common.biome.nether.BiomeGenCorruptedSands)
+144 is Occupied by Phantasmagoric Inferno (biomesoplenty.common.biome.nether.BiomeGenPhantasmagoricInferno)
+145 is Occupied by Wet River (rwg.biomes.base.BaseBiomeRiver)
+146 is Occupied by River Oasis (rwg.biomes.base.BaseBiomeRiver)
+147 is Occupied by Ice Ocean (rwg.biomes.base.BaseBiomeOcean)
+148 is Occupied by Cold Ocean (rwg.biomes.base.BaseBiomeOcean)
+149 is Occupied by Jungle M (net.minecraft.world.biome.BiomeGenJungle)
+150 is Avaible
+151 is Occupied by JungleEdge M (net.minecraft.world.biome.BiomeGenJungle)
+152 is Occupied by Hot Ocean (rwg.biomes.base.BaseBiomeOcean)
+153 is Occupied by Wet Ocean (rwg.biomes.base.BaseBiomeOcean)
+154 is Occupied by Ocean Oasis (rwg.biomes.base.BaseBiomeOcean)
+155 is Occupied by Birch Forest M (net.minecraft.world.biome.BiomeGenForest)
+156 is Occupied by Birch Forest Hills M (net.minecraft.world.biome.BiomeGenForest)
+157 is Occupied by Roofed Forest M (net.minecraft.world.biome.BiomeGenForest)
+158 is Occupied by Cold Taiga M (net.minecraft.world.biome.BiomeGenTaiga)
+159 is Occupied by Snow Desert (rwg.biomes.base.BaseBiomeSnowDesert)
+160 is Occupied by Mega Spruce Taiga (net.minecraft.world.biome.BiomeGenTaiga)
+161 is Occupied by Mega Spruce Taiga (net.minecraft.world.biome.BiomeGenTaiga)
+162 is Occupied by Extreme Hills+ M (net.minecraft.world.biome.BiomeGenHills)
+163 is Occupied by Savanna M (net.minecraft.world.biome.BiomeGenSavanna)
+164 is Occupied by Savanna Plateau M (net.minecraft.world.biome.BiomeGenSavanna)
+165 is Occupied by Mesa (Bryce) (net.minecraft.world.biome.BiomeGenMesa)
+166 is Occupied by Mesa Plateau F M (net.minecraft.world.biome.BiomeGenMesa)
+167 is Occupied by Mesa Plateau M (net.minecraft.world.biome.BiomeGenMesa)
+168 is Occupied by Snow Forest (rwg.biomes.base.BaseBiomeSnowForest)
+169 is Occupied by Cold Plains (rwg.biomes.base.BaseBiomeColdPlains)
+170 is Occupied by BambooForest (growthcraft.bamboo.common.world.BiomeGenBamboo)
+171 is Occupied by Cold Forest (rwg.biomes.base.BaseBiomeColdForest)
+172 is Occupied by Hot Plains (rwg.biomes.base.BaseBiomeHotPlains)
+173 is Occupied by Hot Forest (rwg.biomes.base.BaseBiomeHotForest)
+174 is Occupied by Hot Desert (rwg.biomes.base.BaseBiomeHotDesert)
+175 is Occupied by Basalt Deltas (DelirusCrux.Netherlicious.Biomes.BasaltDeltas)
+176 is Occupied by Crimson Forest (DelirusCrux.Netherlicious.Biomes.CrimsonForest)
+177 is Occupied by Soul Sand Valley (DelirusCrux.Netherlicious.Biomes.SoulSandValley)
+178 is Occupied by Warped Forest (DelirusCrux.Netherlicious.Biomes.WarpedForest)
+179 is Occupied by Foxfire Swamp (DelirusCrux.Netherlicious.Biomes.FoxfireSwamp)
+180 is Occupied by Crystalline Crag (DelirusCrux.Netherlicious.Biomes.CrystallineCrag)
+181 is Occupied by Abyssal Shadowland (DelirusCrux.Netherlicious.Biomes.AbyssalShadowland)
+182 is Occupied by Ruptured Chasm (DelirusCrux.Netherlicious.Biomes.RupturedChasm)
+183 is Occupied by Plains (RWG) (rwg.biomes.base.BaseBiomePlains)
+184 is Occupied by Tropical Island (rwg.biomes.base.BaseBiomeTropicalIsland)
+185 is Occupied by Redwood (rwg.biomes.base.BaseBiomeRedwood)
+186 is Occupied by Jungle (RWG) (rwg.biomes.base.BaseBiomeJungle)
+187 is Occupied by Oasis (rwg.biomes.base.BaseBiomeRiver)
+188 is Occupied by Temperate Forest (rwg.biomes.base.BaseBiomeTemperateForest)
+189 is Avaible
+190 is Avaible
+191 is Avaible
+192 is Avaible
+193 is Avaible
+194 is Avaible
+195 is Avaible
+196 is Avaible
+197 is Avaible
+198 is Avaible
+199 is Avaible
+200 is Avaible
+201 is Occupied by Dunaian Plains (com.hbm.dim.duna.biome.BiomeGenDunaPlains)
+202 is Occupied by Dunaian Lowland Plains (com.hbm.dim.duna.biome.BiomeGenDunaLowlands)
+203 is Occupied by Dunaian Ice Sheet (com.hbm.dim.duna.biome.BiomeGenDunaPolar)
+204 is Occupied by Weathered Dunaian Hills (com.hbm.dim.duna.biome.BiomeGenDunaHills)
+205 is Occupied by Dunaian Polar Mountains (com.hbm.dim.duna.biome.BiomeGenDunaPolarHills)
+206 is Avaible
+207 is Avaible
+208 is Avaible
+209 is Avaible
+210 is Avaible
+211 is Avaible
+212 is Avaible
+213 is Avaible
+214 is Occupied by Minmus Basins (com.hbm.dim.minmus.biome.BiomeGenMinmusBasin)
+215 is Occupied by Minmus Hills (com.hbm.dim.minmus.biome.BiomeGenMinmusHills)
+216 is Avaible
+217 is Avaible
+218 is Avaible
+219 is Avaible
+220 is Avaible
+221 is Avaible
+222 is Occupied by Crater (com.hbm.world.biome.BiomeGenCraterBase$BiomeGenCrater)
+223 is Occupied by Caves (enviromine.world.biomes.BiomeGenCaves)
+224 is Occupied by Outer Crater (com.hbm.world.biome.BiomeGenCraterBase$BiomeGenCraterOuter)
+225 is Avaible
+226 is Avaible
+227 is Avaible
+228 is Avaible
+229 is Avaible
+230 is Avaible
+231 is Avaible
+232 is Avaible
+233 is Avaible
+234 is Avaible
+235 is Avaible
+236 is Avaible
+237 is Avaible
+238 is Avaible
+239 is Avaible
+240 is Avaible
+241 is Avaible
+242 is Avaible
+243 is Avaible
+244 is Avaible
+245 is Avaible
+246 is Avaible
+247 is Avaible
+248 is Avaible
+249 is Avaible
+250 is Avaible
+251 is Avaible
+252 is Avaible
+253 is Avaible
+254 is Avaible
+255 is Avaible

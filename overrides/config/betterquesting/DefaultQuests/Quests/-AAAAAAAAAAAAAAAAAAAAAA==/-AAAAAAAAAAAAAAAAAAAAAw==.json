@@ -1,0 +1,61 @@
+{
+  "questIDLow:4": 3,
+  "questIDHigh:4": 0,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {},
+      "partialMatch:1": 1,
+      "consume:1": 1,
+      "ignoreNBT:1": 1
+    }
+  },
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": 7,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:rotten_flesh",
+          "OreDict:8": "",
+          "Count:3": 64
+        }
+      },
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "UNLOCKED",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "tempitems:sanIcon",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "name:8": "理智",
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "理智是人脑的重要功能。长期[url]看不到光[/url]，被[url]怪物围攻[/url]等这种阴暗的事情就会让你丧失理智。如果理智过低，你会身心俱疲，一蹶不振，视角会变紫。你会看到怪物忽然出现在眼前，诡异的声音不断在耳边低语。不过不用担心，它们都是[url]幻觉[/url]！你还可能会把你的朋友视作怪物！你觉得你疯了？或许吧！"
+    }
+  }
+}

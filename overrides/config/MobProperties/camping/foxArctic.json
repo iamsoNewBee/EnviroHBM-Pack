@@ -1,0 +1,12 @@
+{
+  "_name": "camping.foxArctic",
+  "drops": [{  
+    "function" : "remove",
+    "id" : "camping:animalParts"},{
+"function" : "add",
+"id" : "MoCreatures:fur",
+"count" : "2"
+}],
+  "pre_stats": [],
+  "stats": []
+}
